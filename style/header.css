@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Lobster&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+header{position: sticky;
+top:0;
+left:0;	
+z-index: 9999;	
+}
+
+header, header .content {
+;background: rgb(201,17,51);
+background: linear-gradient(90deg, rgba(201,17,51,1) 0%, rgba(80,99,150,1) 26%, rgba(182,39,172,1) 60%, rgba(0,212,255,1) 91%);
+}
+header .box {
+	background-color: transparent;
+}
+
+header .box a {
+	font-size: 30px;
+	color:#d61111;
+	background-color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 35px;
+	border: 3px groove black;
+	border-radius: 5px;
+	cursor:no-drop;
+	font-family: 'fantasy', cursive;
+}
+header .box a hover {
+	color: #ff4f4f;
+	background-color: #4f64ff;
+}
+header .box .menu{
+	position: relative;
+}
+.drop-menu{
+	display: none;
+	position: absolute;
+	top: 43px;
+	left: 0;
+}
+header .box .menu:hover .drop-menu{
+	display: inline-block;
+}

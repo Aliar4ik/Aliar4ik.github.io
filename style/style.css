@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Lobster&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+header{position: sticky;
+top:0;
+left:0;	
+z-index: 9999;	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+		;background: rgb(201,17,51);
+background: linear-gradient(90deg, rgba(201,17,51,1) 0%, rgba(80,99,150,1) 26%, rgba(182,39,172,1) 60%, rgba(0,212,255,1) 91%);
+}
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+}
+p {
+	color: #000000;
+background-color: #ffffff;
+	font-family: fantasy;
+	font-size: 30px;
+	margin: 10px 0px;
+	font-family: 'Arial Black', sans-serif;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+	width: 1300px;
+	height: 600px;
+
+}
+iframe {
+	width: 1300px;
+	height: 500px;
+	max-width: 100%;
+}
+.content {
+	background: rgb(27,163,164);
+background: linear-gradient(0deg, rgba(27,163,164,1) 0%, rgba(255,255,255,1) 100%);
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.row {
+	display: flex;
+}
+.box {
+	width: 100px;
+	flex-grow: 1;
+	padding: 10px;
+	margin: 10px;
+		;background: rgb(201,17,51);
+background: linear-gradient(90deg, rgba(201,17,51,1) 0%, rgba(80,99,150,1) 26%, rgba(182,39,172,1) 60%, rgba(0,212,255,1) 91%);
+}
+.col-1 {
+	flex-grow: 1;
+}
+.col-2 {
+	flex-grow: 2;
+}
+.col-3 {
+	flex-grow: 3;
+}
+header .box .menu {
+	position: relative;
+}
+
+.drop-menu {
+	display: none;
+	position: absolute;
+	top: 41px;
+	left: 0;
+	padding: 10px;
+}
+.drop-menu a {
+	margin: 10px;
+}
+header .box .menu:hover .drop-menu {
+	display: inline-block;
+}
+.o7 {
+	max-height: 100%;
+	max-width: 100%;
+	width: 1300px;
+	height: 600px;
+}
